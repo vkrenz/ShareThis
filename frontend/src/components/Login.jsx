@@ -30,6 +30,8 @@ const Login = () => {
               <hr className="my-5"/>
               <div className="shadow-2xl">
                 <GoogleLogin
+                  /** Doesn't Work */
+                  /** @TODO Fix Google Login */
                   clientId={process.env.GOOGLE_API_TOKEN}
                   render={(renderProps) => (
                     <button
