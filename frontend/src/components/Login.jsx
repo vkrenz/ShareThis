@@ -32,6 +32,7 @@ const Login = () => {
                 <GoogleLogin
                   /** Doesn't Work */
                   /** @TODO Fix Google Login */
+                  /** WIP */
                   clientId={process.env.GOOGLE_API_TOKEN}
                   render={(renderProps) => (
                     <button
